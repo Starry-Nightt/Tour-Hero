@@ -1,0 +1,35 @@
+.section-title {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.field-group {
+  margin-bottom: 16px;
+  --font-size: 16px;
+}
+
+.field {
+  font-size: var(--font-size);
+  font-weight: 600;
+}
+
+.field-standout {
+  color: var(--dark-clr);
+}
+
+.field-info {
+  font-size: var(--font-size);
+}
+
+.field-input {
+  font-size: 14px;
+  border: 1px solid var(--black-clr);
+  padding: 8px 10px;
+}
+
+.btn {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+

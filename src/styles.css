@@ -1,1 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue-clr: #336699;
+  --light-clr: #EBEBEB;
+  --white-clr: #FFF;
+  --dark-clr: #3F525C;
+  --black-clr: #333;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, a, input[type="text"] {
+  color: #333;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+.btn {
+  background-color: var(--light-clr);
+  padding: 12px 16px 11px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: var(--white-clr);
+  background-color: var(--dark-clr);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  color: var(--dark-clr);
+  margin: 16px 0 25px;
+  font-weight: 600;
+}
+
+
+

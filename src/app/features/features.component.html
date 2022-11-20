@@ -1,0 +1,8 @@
+<div>
+  <h2 class="section-title text-center">{{title}}</h2>
+  <div class="flex justify-between items-center flex-wrap">
+    <a *ngFor="let hero of heroes" class="btn-hero" routerLink="/detail/{{hero.id}}">{{hero.name}}</a>
+  </div>
+</div>
+<app-hero-search></app-hero-search>
+

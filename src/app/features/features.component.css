@@ -1,0 +1,14 @@
+.btn-hero {
+  color: var(--white-clr);
+  font-size: 18px;
+  background-color: var(--dark-clr);
+  padding: 14px 24px 12px;
+  margin:6px;
+  text-align: center;
+  min-width: 140px;
+}
+
+.btn-hero:hover {
+  background-color: var(--black-clr);
+}
+

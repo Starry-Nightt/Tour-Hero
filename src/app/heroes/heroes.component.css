@@ -1,0 +1,46 @@
+.section-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.hero-list {
+  padding: 8px;
+}
+
+.hero-item {
+  margin: 8px 0;
+  border-radius: 5px;
+  display: flex;
+  width: 300px;
+  font-weight: 500;
+  --padding: 10px;
+  overflow: hidden;
+}
+
+.hero-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-id {
+  background-color: var(--dark-clr);
+  color: var(--white-clr);
+  padding: var(--padding);
+}
+
+.hero-name {
+  padding: var(--padding);
+  background-color: var(--light-clr);
+  flex: 1;
+
+}
+
+.inputHero {
+  font-size: 14px;
+  color: #333;
+  background-color: var(--light-clr);
+  margin-right: 12px;
+  padding: 12px;
+}
+
+

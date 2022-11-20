@@ -1,0 +1,19 @@
+<div>
+  <h2 class="section-title">{{title}}</h2>
+
+  <div>
+
+    <input type="text" #heroName class="inputHero" placeholder="Enter hero's name">
+    <button class="btn" (click)="addHero(heroName.value); heroName.value=''">Add Hero</button>
+  </div>
+
+  <div class="hero-list">
+    <div *ngFor="let hero of heroes" class="hero-item-container">
+      <a routerLink="/detail/{{hero.id}}" class="hero-item">
+        <span class="hero-id">{{hero.id}}</span>
+        <span class="hero-name">{{hero.name}}</span>
+      </a>
+      <button class="btn" (click)="deleteHero(hero.id)">Delete</button>
+    </div>
+  </div>
+</div>

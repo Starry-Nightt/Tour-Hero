@@ -1,0 +1,13 @@
+<div *ngIf="hero">
+  <h2 class="section-title">{{hero?.name | formatEmptyString | uppercase}} {{title}}</h2>
+  <div class="field-group">
+    <span class="field">id: </span>
+    <span class="field-info">{{hero?.id}}</span>
+  </div>
+  <div class="field-group">
+    <span class="field field-standout">Hero name: </span>
+    <input type="text" placeholder="Enter name" value="{{hero?.name}}" class="field-input" [(ngModel)]="hero.name">
+  </div>
+  <button class="btn" (click)="onSave()">Save</button>
+  <button class="btn" (click)="goBack()">Back</button>
+</div>
